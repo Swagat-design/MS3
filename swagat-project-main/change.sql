@@ -1,0 +1,4 @@
+ALTER TABLE `user_info` CHANGE `address2` `address2` VARCHAR(11) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL DEFAULT NULL;
+ALTER TABLE `products` ADD `product_status` INT(11) NOT NULL DEFAULT '1' AFTER `product_keywords`;
+ALTER TABLE `orders` ADD `payment_method` VARCHAR(255) NOT NULL DEFAULT 'cod' AFTER `p_status`;
+ALTER TABLE `products` ADD `product_image2` TEXT NULL AFTER `product_image`, ADD `product_image3` TEXT NULL AFTER `product_image2`, ADD `product_camera` VARCHAR(255) NULL AFTER `product_image3`, ADD `product_ram` INT(11) NOT NULL AFTER `product_camera`, ADD `product_storage` VARCHAR(255) NOT NULL AFTER `product_ram`, ADD `product_battery` VARCHAR(255) NOT NULL AFTER `product_storage`;
