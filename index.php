@@ -181,7 +181,7 @@ margin-left: auto;
     <div id="chat-bot">
         <div class="wrapper shadow-lg">
             <div class="title d-flex justify-content-sm-between px-3">
-                Mobile Store Bot 
+                Mobile Store Bot
                 <span style="font-size: 40px; cursor: pointer" class="hide-bot">&#x2212;</span>
             </div>
             <div class="form">
