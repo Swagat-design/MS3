@@ -18,8 +18,6 @@ if(isset($_POST["page"])){
 
 
 if(isset($_POST["addToCart"])){
-		
-
 		$p_id = $_POST["proId"];
 		
 
